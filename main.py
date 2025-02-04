@@ -1,5 +1,6 @@
 import random
-from utils import get_config, PlanningContext
+from utils import get_config, generate_empty_action
+from PlanningContext import PlanningContext
 import omnigibson as og
 from omnigibson.utils.transform_utils import relative_pose_transform
 from omnigibson.utils.grasping_planning_utils import get_grasp_poses_for_object_sticky, get_grasp_position_for_open
